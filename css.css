@@ -1,0 +1,87 @@
+h1,h2 {
+    font-family: 'Merriweather', Times, serif !important;
+    padding-left: 15rem !important;
+    padding-top: 5rem !important; 
+}
+
+.item {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.ui.text.container {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-size: 2em;
+        font-weight: normal;
+    }
+
+main {
+    background: -moz-linear-gradient(to bottom right,#fdfdfd, #ffffff) !important;
+    background: -webkit-linear-gradient(to bottom right,#fdfdfd, #ffffff) !important;
+    background: -o-linear-gradient(to bottom right,#fdfdfd, #ffffff) !important;
+    background: linear-gradient(to bottom right,#fdfdfd, #ffffff) !important;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+.ui.footer.segment {
+    margin: 1em 0em 0em;
+    padding: 2em 0em;
+}
+
+.ui.vertical.sidebar.menu {
+    max-width: 10rem !important;
+}
+
+.ui.secondary.menu .toc.item {
+    display: none;
+  }
+
+.centered.card {
+    /*border: solid 1px red !important;*/
+    padding: 1rem !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+
+.card .desc {
+    padding-top: 0.7rem;
+}
+
+.data-source * {
+    display: none
+}
+
+#SlotMachine {
+    width: 40% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#carousel {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
+}
+
+#slot-machine {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.secondary.menu .item { 
+      display: none;   /* every horizontal menu item gets hidden  */
+    }
+    .ui.secondary.menu .toc.item {
+      display: block;  /* hamburger is shown; toc.item is just the first element */
+    }
+    .card .desc {
+        display: none;
+    }
+}
+
+

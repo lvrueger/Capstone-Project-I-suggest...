@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>...following movies.</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui text container">
+                <h1 class="ui inverted header">
+                    I recommend...
+                </h1>
+            </div>
+        </div>
+        <div class="pusher">
+            <div class="ui vertical masthead center aligned segment">
+
+                <div class="ui container">
+                    <nav class="ui secondary menu">
+                        <a class="toc item">
+                            <i class="sidebar icon"></i>
+                        </a>
+                        <a class="item" href="./index.html">
+                            <i class="circular orange small smile icon"></i>
+                            Home
+                        </a>
+                        <a class="item" href="./books.html">
+                            <i class="circular inverted orange small book icon"></i>
+                            Books
+                        </a>
+                        <a class="active item" href="./movies.html">
+                            <i class="circular inverted orange small film icon"></i>
+                            Movies
+                        </a>
+                        <a class="item" href="./songs.html">
+                            <i class="circular inverted orange small music icon"></i>
+                            Songs
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical sidebar menu">
+            <a class="item" href="./index.html">
+                Home
+                <i class="circular orange small smile icon"></i>
+            </a>
+            <a class="item" href="./books.html">
+                Books
+                <i class="circular inverted orange small book icon"></i>
+            </a>
+            <a class="active item" href="./movies.html">
+                Movies
+                <i class="circular inverted orange small film icon"></i>
+            </a>
+            <a class="item" href="./songs.html">
+                Songs
+                <i class="circular inverted orange small music icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Movies I recommend</h2>
+        <div class="data-source">
+            <img class="gallery-item" src="./images/Movie_Alois.jpg" alt="Cover of Alois Nebel by Liv Rüger"
+                data-target="./movies.html#Alois">
+            <img class="gallery-item" src="./images/Movie_Gogh.jpg" alt="Cover of Loving Vincent by Liv Rüger"
+                data-target="./movies.html#Gogh">
+            <img class="gallery-item" src="./images/Movie_Matchpoint.jpg" alt="Cover of Matchpoint by Liv Rüger"
+                data-target="./movies.html#Matchpoint">
+            <img class="gallery-item" src="./images/Movie_Nightmare.jpg" alt="Cover of Nightmare before Christmas by Liv Rüger"
+                data-target="./movies.html#Nightmare">
+            <img class="gallery-item" src="./images/Movie_Parfum.jpg" alt="Cover of Parfum by Liv Rüger" data-target="./movies.html#Parfum">
+            <img class="gallery-item" src="./images/Movie_Paris.jpg" alt="Cover of Midnight in Paris by Liv Rüger"
+                data-target="./movies.html#Paris">
+            <img class="gallery-item" src="./images/Movie_Persepolis.jpg" alt="Cover of Persepolis by Liv Rüger"
+                data-target="./movies.html#Persepolis">
+            <img class="gallery-item" src="./images/Movie_Stolz.jpg" alt="Cover of Pride and Prejudice by Liv Rüger"
+                data-target="./movies.html#Stolz">
+            <img class="gallery-item" src="./images/Movie_Sweeney.jpg" alt="Cover of Sweeney Todd by Liv Rüger"
+                data-target="./movies.html#Sweeney">
+            <img class="gallery-item" src="./images/Movie_Unicorn.jpg" alt="Cover of the Last Unicorn by Liv Rüger"
+                data-target="./movies.html#Unicorn">
+        </div>
+
+        <div class="ui one centered column grid">
+            <div class="column twelve wide">
+
+                <div class="cards" id="carousel">
+                    <div class="ui centered card">
+                        <div class="image">
+                            <img id="gallery" data-position="0" src="https://semantic-ui.com/images/wireframe/image.png"
+                                alt="gallery">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Gogh"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Gogh.jpg" alt="Cover of Loving Vincent book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Loving Vincent</div>
+                        <div class="meta">
+                            <span class="date">Dorota Kobiela, Hugh Welchman</span>
+                        </div>
+                        <div class="desc">
+                            A beautiful movie about the life of Vincent van Gogh. Told through his paintings.
+                            The movie's animation are handpainted in oil on approximately 65.000 canvasses.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Stolz"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Stolz.jpg" alt="Cover of Pride and Prejudice book by Liv Rüger"
+                                class="ui left floated small image"> </div>
+                        <div class="header">Stolz & Vorurteil</div>
+                        <div class="meta">
+                            <span class="date">Joe Wright</span>
+                        </div>
+                        <div class="desc">
+                            A romantic view in the past and their communication style.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Persepolis"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Persepolis.jpg" alt="Cover of Persepolis book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Persepolis</div>
+                        <div class="meta">
+                            <span class="date">Marjane Satrapi, Vincent Paronnaud</span>
+                        </div>
+                        <div class="desc">
+                            An animated black and white movie about a graphic novelist's self-portrait and her
+                            life in Iran and Europe in the 1970's.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Matchpoint"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Matchpoint.jpg" alt="Cover of Matchpoint book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Match Point</div>
+                        <div class="meta">
+                            <span class="date">Woody Allen</span>
+                        </div>
+                        <div class="desc">
+                            A quiet but also dramatic thriller with smartly played symbolism of luck, time and
+                            destiny.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Paris"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Paris.jpg" alt="Cover of Midnight in Paris book by Liv Rüger"
+                                class="ui left floated small image"> </div>
+                        <div class="header">Midnight in Paris</div>
+                        <div class="meta">
+                            <span class="date">Woody Allen</span>
+                        </div>
+                        <div class="desc">
+                            A movie about dreamers that glorify the past and how they find romanticism even in
+                            the moment.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Alois"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Alois.jpg" alt="Cover of Alois Nebel book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Alois Nebel</div>
+                        <div class="meta">
+                            <span class="date">Tomás Lunák</span>
+                        </div>
+                        <div class="desc">
+                            Also a black and white animation about a man living in the Czech Republic, close to
+                            the polish border, in the late 1980's.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Parfum"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Parfum.jpg" alt="Cover of Parfum book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Das Parfüm</div>
+                        <div class="meta">
+                            <span class="date">Tom Tykwer</span>
+                        </div>
+                        <div class="desc">
+                            A thriller/drama about the sense, fewer people pay attention to - the smell, and a
+                            boy that was born with the rare distinction of a great smelling sense. It gives an
+                            insight in people's subconscious, the play of seduction and greed.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Nightmare"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Nightmare.jpg" alt="Cover of Nightmare before Christmas book by Liv Rüger"
+                                class="ui left floated small image"> </div>
+                        <div class="header">Nightmare Before Christmas</div>
+                        <div class="meta">
+                            <span class="date">Henry Selick</span>
+                        </div>
+                        <div class="desc">
+                            A wonderful stop-motion movie that teaches tolerance of differences.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Unicorn"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Unicorn.jpg" alt="Cover of the Last Unicorn book by Liv Rüger"
+                                class="ui left floated small image"> </div>
+                        <div class="header">Das letzte Einhorn</div>
+                        <div class="meta">
+                            <span class="date">Arthur Rankin, Jules Bass</span>
+                        </div>
+                        <div class="desc">
+                            A beautiful animation from the 1980's that plays with human emotions, weaknesses
+                            but also strengths in a setting of characters from old mythologies and legends.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Sweeney"></a>
+                        <div class="image">
+                            <img src="./images/Movie_Sweeney.jpg" alt="Cover of Sweeney Todd book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Sweeney Todd</div>
+                        <div class="meta">
+                            <span class="date">Tim Burton</span>
+                        </div>
+                        <div class="desc">
+                            A musical about a dramatic destinity of a barber in the industrial London.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <div class="ui horizontal inverted small divided link list">
+                    &copy; 2018 Liv Rüger
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptgallery.js"></script>
+</body>
+
+</html>

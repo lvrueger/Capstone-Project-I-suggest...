@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>...following books.</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui text container">
+                <h1 class="ui inverted header">
+                    I recommend...
+                </h1>
+            </div>
+        </div>
+        <div class="pusher">
+            <div class="ui vertical masthead center aligned segment">
+
+                <div class="ui container">
+                    <nav class="ui secondary menu">
+                        <a class="toc item">
+                            <i class="sidebar icon"></i>
+                        </a>
+                        <a class="item" href="./index.html">
+                            <i class="circular orange small smile icon"></i>
+                            Home
+                        </a>
+                        <a class="active item" href="./books.html">
+                            <i class="circular inverted orange small book icon"></i>
+                            Books
+                        </a>
+                        <a class="item" href="./movies.html">
+                            <i class="circular inverted orange small film icon"></i>
+                            Movies
+                        </a>
+                        <a class="item" href="./songs.html">
+                            <i class="circular inverted orange small music icon"></i>
+                            Songs
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical sidebar menu">
+            <a class="item" href="./index.html">
+                Home
+                <i class="circular orange small smile icon"></i>
+            </a>
+            <a class="active item" href="./books.html">
+                Books
+                <i class="circular inverted orange small book icon"></i>
+            </a>
+            <a class="item" href="./movies.html">
+                Movies
+                <i class="circular inverted orange small film icon"></i>
+            </a>
+            <a class="item" href="./songs.html">
+                Songs
+                <i class="circular inverted orange small music icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Books I recommend</h2>
+
+        <div class="data-source">
+            <img class="gallery-item" src="./images/Book_Alice.jpg" alt="Cover of Alice in Wonderland book by Liv Rüger"
+                data-target="./books.html#Alice">
+            <img class="gallery-item" src="./images/Book_Bildnis.jpg" alt="Cover of Dorian Gray book by Liv Rüger"
+                data-target="./books.html#Bildnis">
+            <img class="gallery-item" src="./images/Book_Gedächtnis.jpg" alt="Cover of das zweite Gedächtnis book by Liv Rüger"
+                data-target="./books.html#Gedächtnis">
+            <img class="gallery-item" src="./images/Book_Harry.jpg" alt="Cover of Harry Potter by Liv Rüger"
+                data-target="./books.html#Harry">
+            <img class="gallery-item" src="./images/Book_Jahrhundert.jpg" alt="Cover of the century trilogy by Liv Rüger"
+                data-target="./books.html#Jahrhundert">
+            <img class="gallery-item" src="./images/Book_Sandman.jpg" alt="Cover of Sandman by Liv Rüger" data-target="./books.html#Sandman">
+            <img class="gallery-item" src="./images/Book_Steppenwolf.jpg" alt="Cover of Steppenwolf by Liv Rüger"
+                data-target="./books.html#Steppenwolf">
+            <img class="gallery-item" src="./images/Book_Tage.jpg" alt="Cover of Tage des Aufstands by Liv Rüger"
+                data-target="./books.html#Tage">
+            <img class="gallery-item" src="./images/Book_Tokio.jpg" alt="Cover of Tokio by Liv Rüger" data-target="./books.html#Tokio">
+            <img class="gallery-item" src="./images/Book_Windsänger.jpg" alt="Cover of Windsänger by Liv Rüger"
+                data-target="./books.html#Windsänger">
+        </div>
+
+        <div class="ui one centered column grid">
+            <div class="column twelve wide">
+
+                <div class="cards" id="carousel">
+                    <div class="ui centered card">
+                        <div class="image">
+                            <img id="gallery" data-position="0" src="https://semantic-ui.com/images/wireframe/image.png"
+                                alt="gallery">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Sandman"></a>
+                        <div class="image">
+                            <img src="./images/Book_Sandman.jpg" alt="Cover of Sandman book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Sandman</div>
+                        <div class="meta">
+                            <span class="date">Neil Gaiman</span>
+                        </div>
+                        <div class="desc">
+                            Sandman is a graphic novel that convinces with a deep leveled story, which prompts your
+                            creativity to play along. It includes adaptions of characters from mythologies, sagas and
+                            legends and is still far away from being too esoteric. Different artists were drawing
+                            different chaptes as usual but each style amazes by itself.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Windsänger"></a>
+                        <div class="image">
+                            <img src="./images/Book_Windsänger.jpg" alt="Cover of Windsänger book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Windsänger-Trilogie</div>
+                        <div class="meta">
+                            <span class="date">William Nicholson</span>
+                        </div>
+                        <div class="desc">
+                            In a very compelling way Nicholson describes different state systems and illustrates their
+                            advantages and disadvantages along a fascinating story.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Steppenwolf"></a>
+                        <div class="image">
+                            <img src="./images/Book_Steppenwolf.jpg" alt="Cover of Steppenwolf book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Der Steppenwolf</div>
+                        <div class="meta">
+                            <span class="date">Hermann Hesse</span>
+                        </div>
+                        <div class="desc">
+                            A contemporary novel about the warning of the Second World War and the loneliness of people
+                            with a vision.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Harry"></a>
+                        <div class="image">
+                            <img src="./images/Book_Harry.jpg" alt="Cover of Harry Potter book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Harry Potter-Reihe</div>
+                        <div class="meta">
+                            <span class="date">J.K. Rowling</span>
+                        </div>
+                        <div class="desc">
+                            Starting as a children book Harry Potter grows with every book to become a wonderful series
+                            that describes the danger of isolation, racism, hunger for power and war and the necessety
+                            of friendship to stand up against that.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Jahrhundert"></a>
+                        <div class="image">
+                            <img src="./images/Book_Jahrhundert.jpg" alt="Cover of the century trilogy book by Liv Rüger"
+                                class="ui left floated small image">
+                        </div>
+                        <div class="header">Die Jahrhunderttrilogie</div>
+                        <div class="meta">
+                            <span class="date">Ken Follett</span>
+                        </div>
+                        <div class="desc">
+                            A genealogic viewpoint of different families around the world and their connections in the
+                            time around the First, the Second and the Cold War. It describes the horryfing but also
+                            noble nature of humanity.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Gedächtnis"></a>
+                        <div class="image">
+                            <img src="./images/Book_Gedächtnis.jpg" alt="Cover of das zweite Gedächtnis book by Liv Rüger"
+                                class="ui left floated small image">
+                        </div>
+                        <div class="header">Das zweite Gedächtnis</div>
+                        <div class="meta">
+                            <span class="date">Ken Follett</span>
+                        </div>
+                        <div class="desc">
+                            A well built tension climax with the topic of the space race in times of the Cold War.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Bildnis"></a>
+                        <div class="image">
+                            <img src="./images/Book_Bildnis.jpg" alt="Cover of Dorian Gray book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Das Bildnis des Dorian Gray</div>
+                        <div class="meta">
+                            <span class="date">Oscar Wilde</span>
+                        </div>
+                        <div class="desc">
+                            Dorian Gray describes very vivid the natur of human beings and their dark abysses.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Tokio"></a>
+                        <div class="image">
+                            <img src="./images/Book_Tokio.jpg" alt="Cover of Tokio book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Tokio</div>
+                        <div class="meta">
+                            <span class="date">Mo Hayder</span>
+                        </div>
+                        <div class="desc">
+                            Tokio is a novel about the present and the past of Japan and its connection to the Second
+                            World War.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Alice"></a>
+                        <div class="image">
+                            <img src="./images/Book_Alice.jpg" alt="Cover of Alice in Wonderland book by Liv Rüger"
+                                class="ui left floated small image">
+                        </div>
+                        <div class="header">Alice im Wunderland</div>
+                        <div class="meta">
+                            <span class="date">Lewis Carroll</span>
+                        </div>
+                        <div class="desc">
+                            A wonderful story about daydreamers and how creative people can see the world. It's about
+                            acceptance of the differences.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Tage"></a>
+                        <div class="image">
+                            <img src="./images/Book_Tage.jpg" alt="Cover of Tage des Aufstands book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Tage des Aufstands</div>
+                        <div class="meta">
+                            <span class="date">Mascha Alechina</span>
+                        </div>
+                        <div class="desc">
+                            A description of conditions in Russia at present and maybe a warning of losing freedom of
+                            speech.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <div class="ui horizontal inverted small divided link list">
+                    &copy; 2018 Liv Rüger
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptgallery.js"></script>
+</body>
+
+</html>

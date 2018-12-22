@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>...following songs.</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui text container">
+                <h1 class="ui inverted header">
+                    I recommend...
+                </h1>
+            </div>
+        </div>
+        <div class="pusher">
+            <div class="ui vertical masthead center aligned segment">
+
+                <div class="ui container">
+                    <nav class="ui secondary menu">
+                        <a class="toc item">
+                            <i class="sidebar icon"></i>
+                        </a>
+                        <a class="item" href="./index.html">
+                            <i class="circular orange small smile icon"></i>
+                            Home
+                        </a>
+                        <a class="item" href="./books.html">
+                            <i class="circular inverted orange small book icon"></i>
+                            Books
+                        </a>
+                        <a class="item" href="./movies.html">
+                            <i class="circular inverted orange small film icon"></i>
+                            Movies
+                        </a>
+                        <a class="active item" href="./songs.html">
+                            <i class="circular inverted orange small music icon"></i>
+                            Songs
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical sidebar menu">
+            <a class="item" href="./index.html">
+                Home
+                <i class="circular orange small smile icon"></i>
+            </a>
+            <a class="item" href="./books.html">
+                Books
+                <i class="circular inverted orange small book icon"></i>
+            </a>
+            <a class="item" href="./movies.html">
+                Movies
+                <i class="circular inverted orange small film icon"></i>
+            </a>
+            <a class="active item" href="./songs.html">
+                Songs
+                <i class="circular inverted orange small music icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Songs I recommend</h2>
+        <div class="data-source">
+            <img class="gallery-item" src="./images/Song_Bodies.jpg" alt="Cover of Demented Are Go by Liv Rüger"
+                data-target="./songs.html#Bodies">
+            <img class="gallery-item" src="./images/Song_Folsom.jpg" alt="Cover of Johnny Cash by Liv Rüger"
+                data-target="./songs.html#Folsom">
+            <img class="gallery-item" src="./images/Song_Mercedes.jpg" alt="Cover of Janis Joplin by Liv Rüger"
+                data-target="./songs.html#Mercedes">
+            <img class="gallery-item" src="./images/Song_OutDark.jpg" alt="Cover of Falco by Liv Rüger" data-target="./songs.html#OutDark">
+            <img class="gallery-item" src="./images/Song_Quadrat.jpg" alt="Cover of WIZO by Liv Rüger" data-target="./songs.html#Quadrat">
+            <img class="gallery-item" src="./images/Song_Seemann.jpg" alt="Cover of Rammstein by Liv Rüger" data-target="./songs.html#Seemann">
+            <img class="gallery-item" src="./images/Song_Sing.jpg" alt="Cover of Dresden Dolls by Liv Rüger"
+                data-target="./songs.html#Sing">
+            <img class="gallery-item" src="./images/Song_TimeWarp.jpg" alt="Cover of the Rocky Horror Picture Show by Liv Rüger"
+                data-target="./songs.html#TimeWarp">
+            <img class="gallery-item" src="./images/Song_Unchain.jpg" alt="Cover of Ray Charles by Liv Rüger"
+                data-target="./songs.html#Unchain">
+            <img class="gallery-item" src="./images/Song_Wunder.jpg" alt="Cover of Rio Reiser by Liv Rüger" data-target="./songs.html#Wunder">
+        </div>
+
+        <div class="ui one centered column grid">
+            <div class="column twelve wide">
+
+                <div class="cards" id="carousel">
+                    <div class="ui centered card">
+                        <div class="image">
+                            <img id="gallery" data-position="0" src="https://semantic-ui.com/images/wireframe/image.png"
+                                alt="gallery">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Seemann"></a>
+                        <div class="image">
+                            <img src="./images/Song_Seemann.jpg" alt="Cover of Rammstein book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Seemann</div>
+                        <div class="meta">
+                            <span class="date">Rammstein</span>
+                        </div>
+                        <div class="desc">
+                            A song about a dark story of a sailor losing orientation on sea and life. Rock.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="TimeWarp"></a>
+                        <div class="image">
+                            <img src="./images/Song_TimeWarp.jpg" alt="Cover of the Rocky Horror Picture Show book by Liv Rüger"
+                                class="ui left floated small image"> </div>
+                        <div class="header">Time Warp</div>
+                        <div class="meta">
+                            <span class="date">Rocky Horror Picture Show</span>
+                        </div>
+                        <div class="desc">
+                            A very catchy song of a brilliant musical. Rock.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Sing"></a>
+                        <div class="image">
+                            <img src="./images/Song_Sing.jpg" alt="Cover of Dresden Dolls book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Sing</div>
+                        <div class="meta">
+                            <span class="date">The Dresden Dolls</span>
+                        </div>
+                        <div class="desc">
+                            About finding convidence in yourself in a world of anonimity and ignorance. Giving
+                            your opinion a voice to be heard. ‎Dark cabaret‎, piano rock.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Bodies"></a>
+                        <div class="image">
+                            <img src="./images/Song_Bodies.jpg" alt="Cover of Demented Are Go book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Bodies in the Basement</div>
+                        <div class="meta">
+                            <span class="date">Demented Are Go</span>
+                        </div>
+                        <div class="desc">
+                            A very catchy song about the dark nature of humans. Horror punk.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Folsom"></a>
+                        <div class="image">
+                            <img src="./images/Song_Folsom.jpg" alt="Cover of Johnny Cash book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Folsom Prison Blues</div>
+                        <div class="meta">
+                            <span class="date">Johnny Cash</span>
+                        </div>
+                        <div class="desc">
+                            A song by Johnny Cash that he was recording as a live version in the Folsom State
+                            Prison. Country and Blues.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Unchain"></a>
+                        <div class="image">
+                            <img src="./images/Song_Unchain.jpg" alt="Cover of Ray Charles book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Unchain my Heart</div>
+                        <div class="meta">
+                            <span class="date">Ray Charles</span>
+                        </div>
+                        <div class="desc">
+                            A very catchy, happy and dancable love song. Rhythm and Blues.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="OutDark"></a>
+                        <div class="image">
+                            <img src="./images/Song_OutDark.jpg" alt="Cover of Falco book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Out of the Dark</div>
+                        <div class="meta">
+                            <span class="date">Falco</span>
+                        </div>
+                        <div class="desc">
+                            A semi-autobiographic attend of the artist. Very emotional. Pop rock/ dance.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Mercedes"></a>
+                        <div class="image">
+                            <img src="./images/Song_Mercedes.jpg" alt="Cover of Janis Joplin book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Mercedes Benz</div>
+                        <div class="meta">
+                            <span class="date">Janis Joplin</span>
+                        </div>
+                        <div class="desc">
+                            The framework of the lyrics works well together. Janis' voice is extraordinary.
+                            Rock.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Quadrat"></a>
+                        <div class="image">
+                            <img src="./images/Song_Quadrat.jpg" alt="Cover of WIZO book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Quadrat im Kreis</div>
+                        <div class="meta">
+                            <span class="date">WIZO</span>
+                        </div>
+                        <div class="desc">
+                            A song about not fitting into society norms and being frustrated about it.
+                            Punkrock.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui centered card">
+                    <div class="content">
+                        <a name="Wunder"></a>
+                        <div class="image">
+                            <img src="./images/Song_Wunder.jpg" alt="Cover of Rio Reiser book by Liv Rüger" class="ui left floated small image">
+                        </div>
+                        <div class="header">Lass uns ein Wunder sein</div>
+                        <div class="meta">
+                            <span class="date">Rio Reiser</span>
+                        </div>
+                        <div class="desc">
+                            A romantic song about the idea of good human nature in an alternative rock style.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <div class="ui horizontal inverted small divided link list">
+                    &copy; 2018 Liv Rüger
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptgallery.js"></script>
+</body>
+
+</html>
