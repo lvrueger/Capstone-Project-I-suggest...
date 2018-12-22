@@ -39,3 +39,8 @@ if (gallery) {
     setInterval(displayNextGalleryImage, 5000);
 }
 
+
+if (slotMachine) {
+    console.log('Initialising slot machine with a random image.')
+    spinSlotMachine();
+}
