@@ -1,7 +1,13 @@
-h1,h2 {
-    font-family: 'Merriweather', Times, serif !important;
+h1 {
+    font-family: 'Times New Roman', Times, serif !important;
+    margin:0 auto !important;
+    padding-top: 2rem !important; 
+}
+
+main h2 {
+    font-family: 'Times New Roman', Times, serif !important;
     padding-left: 15rem !important;
-    padding-top: 5rem !important; 
+    padding-top: 2rem !important; 
 }
 
 .item {
@@ -81,6 +87,9 @@ main {
     }
     .card .desc {
         display: none;
+    }
+    main h2 {
+        padding-left: 3rem !important;
     }
 }
 
